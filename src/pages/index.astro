@@ -1,0 +1,60 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Chatbot from '../components/Chatbot.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>👋 Olá, sou Julio Campos Machado!</h1>
+			<p>
+				Bem-vindo ao meu portfólio! Sou locutor da Rádio Tatuapé FM (88,8 MHz) há mais de 15 anos
+				e fundador da Like Look Solutions, uma empresa especializada em soluções de TI.
+			</p>
+			<h2>Serviços Like Look Solutions</h2>
+			<ul>
+				<li>Service Desk</li>
+				<li>Alocação de Profissionais</li>
+				<li>Field Support</li>
+				<li>Cabling</li>
+				<li>Projetos e Consultoria</li>
+			</ul>
+			<h2>Contatos</h2>
+			<ul>
+				<li>WhatsApp: (11) 97060-3441 | (11) 99294-6628</li>
+				<li>Site: <a href="https://likelook.wixsite.com/solutions" target="_blank">Like Look Solutions</a></li>
+			</ul>
+			<h2>Adega Rádio Tatuapé FM</h2>
+			<p>
+				Peça bebidas 24h pelo <a href="https://www.ifood.com.br/delivery/sao-paulo-sp/adega-radio-tatuape-fm-24-horas" target="_blank">iFood</a>
+			</p>
+			<h2>Livro</h2>
+			<p>
+				Confira meu livro "Juliette Psicose" disponível na <a href="https://www.amazon.com.br/Juliette-Psicose/dp/B0CLKWDQNJ" target="_blank">Amazon Kindle</a>
+			</p>
+			<h2>Redes Sociais</h2>
+			<ul>
+				<li><a href="https://x.com/JulioScouter" target="_blank">X (Twitter)</a></li>
+				<li><a href="https://www.instagram.com/radiotatuapefm" target="_blank">Instagram</a></li>
+				<li><a href="https://www.facebook.com/tatuapefm" target="_blank">Facebook Rádio</a></li>
+				<li><a href="https://www.facebook.com/likelooksolutionsti" target="_blank">Facebook Like Look</a></li>
+				<li><a href="https://github.com/AstridNielsen-lab" target="_blank">GitHub</a></li>
+				<li><a href="https://www.linkedin.com/in/juliocamposmachado" target="_blank">LinkedIn</a></li>
+			</ul>
+			<h2>Canal de Vagas</h2>
+			<p>
+				Inscreva-se no nosso canal 'Vagas & TI Like Look Solutions' no <a href="https://whatsapp.com/channel/0029VarzJ63HQbRwTNqBUw3b" target="_blank">WhatsApp</a>
+			</p>
+		</main>
+		<Footer />
+		<Chatbot />
+	</body>
+</html>
