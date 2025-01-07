@@ -39,7 +39,7 @@
   .chatbot-container {
     position: fixed;
     bottom: 5rem;
-    right: 2rem; /* Mantém à direita por padrão */
+    right: 2rem;
     z-index: 9999;
   }
 
@@ -188,12 +188,14 @@
   @media (max-width: 768px) {
     .chatbot-container {
       bottom: 2rem;
-      right: 1rem; /* Mantém à direita mesmo em mobile */
+      left: 1rem; /* Muda para o lado esquerdo em mobile */
+      right: auto; /* Remove o right para evitar conflito */
     }
 
     .chat-window {
       width: calc(100vw - 2rem);
-      right: -1rem;
+      left: -1rem; /* Alinha a janela do chat com o botão */
+      right: auto; /* Remove o right para evitar conflito */
       height: 60vh;
     }
   }
