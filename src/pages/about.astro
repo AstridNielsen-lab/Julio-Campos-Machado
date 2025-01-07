@@ -8,95 +8,247 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('August 08 2021')}
 	heroImage="/avatar.jpg"
 >
-	<div class="prose mx-auto">
-		<p class="lead">
-			Como CEO e fundador da Like Look Solutions, lidero uma equipe de elite em tecnologia e inovação. 
-			Nossa missão é transformar desafios em oportunidades através de soluções tecnológicas 
-			inteligentes que impulsionam o sucesso dos nossos clientes.
-		</p>
-
-		<h2>Expertise Profissional</h2>
-		<ul>
-			<li>Gestão Estratégica de TI e Transformação Digital</li>
-			<li>Arquitetura de Soluções Empresariais</li>
-			<li>Consultoria em Inovação Tecnológica</li>
-			<li>Otimização de Processos e Infraestrutura</li>
-			<li>Desenvolvimento de Talentos em TI</li>
-		</ul>
-
-		<h2>Like Look Solutions</h2>
-		<p>
-			Somos uma empresa pioneira em soluções tecnológicas integradas, reconhecida pela excelência 
-			e inovação em:
-		</p>
-		<ul>
-			<li><strong>Service Desk Avançado:</strong> Centro de suporte inteligente com atendimento 
-			personalizado e resoluções ágeis</li>
-			<li><strong>Field Support Especializado:</strong> Equipe altamente capacitada para 
-			suporte presencial e intervenções críticas</li>
-			<li><strong>Consultoria Estratégica:</strong> Planejamento e implementação de soluções 
-			tecnológicas sob medida</li>
-			<li><strong>Projetos Customizados:</strong> Desenvolvimento de soluções inovadoras 
-			alinhadas aos objetivos do negócio</li>
-			<li><strong>Gestão de Infraestrutura:</strong> Monitoramento proativo e otimização 
-			contínua de ambientes tecnológicos</li>
-		</ul>
-
-		<h2>Inovação e Tecnologia</h2>
-		<p>
-			Na vanguarda da transformação digital, combinamos tecnologias emergentes com metodologias 
-			comprovadas para criar soluções que não apenas atendem às necessidades atuais, mas 
-			preparam nossos clientes para os desafios futuros.
-		</p>
-
-		<h2>Compromisso Social</h2>
-		<p>
-			Através da iniciativa "Vagas & TI Like Look Solutions", lideramos a transformação do 
-			mercado de trabalho em TI, criando pontes entre talentos excepcionais e oportunidades 
-			transformadoras, contribuindo para o desenvolvimento do setor tecnológico brasileiro.
-		</p>
-
-		<div class="cta-section">
-			<p>
-				<strong>Pronto para elevar sua infraestrutura tecnológica ao próximo nível?</strong><br>
-				Entre em contato para uma consultoria estratégica personalizada.
+	<div class="about-container">
+		<div class="intro-section" data-aos="fade-up">
+			<p class="lead">
+				Como CEO e fundador da Like Look Solutions, lidero uma equipe de elite em tecnologia e inovação. 
+				Nossa missão é transformar desafios em oportunidades através de soluções tecnológicas 
+				inteligentes que impulsionam o sucesso dos nossos clientes.
 			</p>
+		</div>
+
+		<div class="expertise-section" data-aos="fade-up">
+			<h2>Expertise Profissional</h2>
+			<div class="expertise-grid">
+				<div class="expertise-card">
+					<div class="icon">🎯</div>
+					<h3>Gestão Estratégica</h3>
+					<p>TI e Transformação Digital</p>
+				</div>
+				<div class="expertise-card">
+					<div class="icon">🏗️</div>
+					<h3>Arquitetura</h3>
+					<p>Soluções Empresariais</p>
+				</div>
+				<div class="expertise-card">
+					<div class="icon">💡</div>
+					<h3>Consultoria</h3>
+					<p>Inovação Tecnológica</p>
+				</div>
+				<div class="expertise-card">
+					<div class="icon">⚡</div>
+					<h3>Otimização</h3>
+					<p>Processos e Infraestrutura</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="services-section" data-aos="fade-up">
+			<h2>Like Look Solutions</h2>
+			<p class="services-intro">
+				Somos uma empresa pioneira em soluções tecnológicas integradas, reconhecida pela excelência 
+				e inovação em:
+			</p>
+			<div class="services-grid">
+				<div class="service-card">
+					<h3>Service Desk Avançado</h3>
+					<p>Centro de suporte inteligente com atendimento personalizado e resoluções ágeis</p>
+				</div>
+				<div class="service-card">
+					<h3>Field Support Especializado</h3>
+					<p>Equipe altamente capacitada para suporte presencial e intervenções críticas</p>
+				</div>
+				<div class="service-card">
+					<h3>Consultoria Estratégica</h3>
+					<p>Planejamento e implementação de soluções tecnológicas sob medida</p>
+				</div>
+				<div class="service-card">
+					<h3>Projetos Customizados</h3>
+					<p>Desenvolvimento de soluções inovadoras alinhadas aos objetivos do negócio</p>
+				</div>
+				<div class="service-card">
+					<h3>Gestão de Infraestrutura</h3>
+					<p>Monitoramento proativo e otimização contínua de ambientes tecnológicos</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="innovation-section" data-aos="fade-up">
+			<h2>Inovação e Tecnologia</h2>
+			<div class="innovation-content">
+				<p>
+					Na vanguarda da transformação digital, combinamos tecnologias emergentes com metodologias 
+					comprovadas para criar soluções que não apenas atendem às necessidades atuais, mas 
+					preparam nossos clientes para os desafios futuros.
+				</p>
+			</div>
+		</div>
+
+		<div class="commitment-section" data-aos="fade-up">
+			<h2>Compromisso Social</h2>
+			<div class="commitment-content">
+				<p>
+					Através da iniciativa "Vagas & TI Like Look Solutions", lideramos a transformação do 
+					mercado de trabalho em TI, criando pontes entre talentos excepcionais e oportunidades 
+					transformadoras, contribuindo para o desenvolvimento do setor tecnológico brasileiro.
+				</p>
+			</div>
+		</div>
+
+		<div class="cta-section" data-aos="fade-up">
+			<div class="cta-content">
+				<h3>Pronto para elevar sua infraestrutura tecnológica ao próximo nível?</h3>
+				<p>Entre em contato para uma consultoria estratégica personalizada.</p>
+				<a href="#contato" class="cta-button">Fale Conosco</a>
+			</div>
 		</div>
 	</div>
 </Layout>
 
 <style>
-	.lead {
-		font-size: 1.2em;
-		line-height: 1.6;
-		color: #2d3748;
-		margin-bottom: 2em;
+	.about-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 2rem;
 	}
 
-	.prose {
-		max-width: 65ch;
+	.intro-section {
+		text-align: center;
+		margin-bottom: 4rem;
+	}
+
+	.lead {
+		font-size: 1.3rem;
+		line-height: 1.8;
+		color: #2d3748;
+		max-width: 800px;
 		margin: 0 auto;
 	}
 
-	.prose h2 {
-		color: #2d3748;
-		margin-top: 2em;
-		margin-bottom: 1em;
+	h2 {
+		font-size: 2rem;
+		color: #1a202c;
+		margin-bottom: 2rem;
+		text-align: center;
+		position: relative;
+		padding-bottom: 1rem;
 	}
 
-	.prose ul {
-		margin-bottom: 1.5em;
+	h2::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 60px;
+		height: 4px;
+		background: linear-gradient(to right, #2337ff, #000d8a);
+		border-radius: 2px;
 	}
 
-	.prose li {
-		margin-bottom: 0.5em;
+	.expertise-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+		gap: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.expertise-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		text-align: center;
+		transition: transform 0.3s ease;
+	}
+
+	.expertise-card:hover {
+		transform: translateY(-5px);
+	}
+
+	.icon {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.services-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 2rem;
+		margin-bottom: 4rem;
+	}
+
+	.service-card {
+		background: white;
+		padding: 2rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+	}
+
+	.service-card:hover {
+		transform: translateY(-5px);
+	}
+
+	.service-card h3 {
+		color: #2337ff;
+		margin-bottom: 1rem;
+	}
+
+	.innovation-section,
+	.commitment-section {
+		background: white;
+		padding: 3rem;
+		border-radius: 1rem;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		margin-bottom: 3rem;
 	}
 
 	.cta-section {
-		margin-top: 3em;
-		padding: 2em;
-		background: #f7fafc;
-		border-radius: 8px;
+		background: linear-gradient(135deg, #2337ff, #000d8a);
+		color: white;
+		padding: 4rem 2rem;
+		border-radius: 1rem;
 		text-align: center;
+		margin-top: 4rem;
+	}
+
+	.cta-content h3 {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+
+	.cta-button {
+		display: inline-block;
+		background: white;
+		color: #2337ff;
+		padding: 1rem 2rem;
+		border-radius: 2rem;
+		font-weight: bold;
+		margin-top: 2rem;
+		transition: transform 0.3s ease;
+	}
+
+	.cta-button:hover {
+		transform: scale(1.05);
+	}
+
+	@media (max-width: 768px) {
+		.expertise-grid,
+		.services-grid {
+			grid-template-columns: 1fr;
+		}
+
+		.about-container {
+			padding: 1rem;
+		}
 	}
 </style>
+
+<script>
+	import AOS from 'aos';
+	AOS.init({
+		duration: 1000,
+		once: true
+	});
+</script>
