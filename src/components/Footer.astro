@@ -3,7 +3,7 @@ const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Julio Campos Machado. Todos os direitos reservados.
+	&copy; {today.getFullYear()} <a href="https://likelook.wixsite.com/solutions" target="_blank" class="hover:text-accent">Like Look Solutions</a>. Todos os direitos reservados.
 </footer>
 
 <style>
@@ -12,5 +12,11 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	
+	footer a {
+		text-decoration: none;
+		color: inherit;
+		transition: color 0.2s ease;
 	}
 </style>
