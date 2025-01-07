@@ -184,19 +184,23 @@
     background: var(--accent-dark);
   }
 
+   /* Mobile responsiveness */
   @media (max-width: 768px) {
     .chatbot-container {
       bottom: 2rem;
-      right: 1rem;
+      left: 1rem; /* Muda para o lado esquerdo em mobile */
+      right: auto; /* Remove o right para evitar conflito */
     }
 
     .chat-window {
-      width: calc(80vw - 2rem);
-      right: -1rem;
-      height: 50vh;
+      width: calc(100vw - 2rem);
+      left: -1rem; /* Alinha a janela do chat com o botão */
+      right: auto; /* Remove o right para evitar conflito */
+      height: 60vh;
     }
   }
 </style>
+
 
 <script>
   const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent";
