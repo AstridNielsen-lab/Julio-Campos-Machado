@@ -89,8 +89,23 @@ import { SITE_TITLE } from '../consts';
 		color: var(--accent);
 	}
 	@media (max-width: 720px) {
+		nav {
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 1rem;
+		}
 		.social-links {
-			display: none;
+			width: 100%;
+			justify-content: center;
+			order: 3;
+		}
+		.internal-links {
+			order: 2;
+		}
+		h2 {
+			width: 100%;
+			text-align: center;
+			order: 1;
 		}
 	}
 </style>
