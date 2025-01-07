@@ -8,52 +8,71 @@ import Layout from '../layouts/BlogPost.astro';
 	pubDate={new Date('August 08 2021')}
 	heroImage="/avatar.jpg"
 >
-	<p>
-		Como CEO e fundador da Like Look Solutions, lidero uma equipe especializada em transformação digital
-			e soluções tecnológicas inovadoras. Com mais de 15 anos de experiência no setor de TI, 
-			desenvolvemos soluções personalizadas que impulsionam a eficiência operacional e o crescimento 
-			dos nossos clientes.
-	</p>
+	<div class="prose mx-auto">
+		<p class="lead">
+			Como <strong>CEO e fundador</strong> da <strong>Like Look Solutions</strong>, lidero uma equipe especializada em <strong>transformação digital</strong> e <strong>soluções tecnológicas inovadoras</strong>. Com <strong>mais de 15 anos de experiência</strong> no setor de TI, desenvolvemos soluções personalizadas que impulsionam a eficiência operacional e o crescimento dos nossos clientes.
+		</p>
 
-	<h2>Expertise Profissional</h2>
-		<ul>
-			<li>Gestão de Projetos de TI</li>
-			<li>Implementação de Soluções Enterprise</li>
-			<li>Consultoria Estratégica</li>
-			<li>Transformação Digital</li>
-			<li>Liderança de Equipes Técnicas</li>
-		</ul>
+		<h2>Expertise Profissional</h2>
+		<div class="expertise-grid">
+			<div class="expertise-item">
+				<strong>📊 Gestão de Projetos de TI</strong>
+			</div>
+			<div class="expertise-item">
+				<strong>🚀 Implementação Enterprise</strong>
+			</div>
+			<div class="expertise-item">
+				<strong>💡 Consultoria Estratégica</strong>
+			</div>
+			<div class="expertise-item">
+				<strong>🔄 Transformação Digital</strong>
+			</div>
+			<div class="expertise-item">
+				<strong>👥 Liderança Técnica</strong>
+			</div>
+		</div>
 
 		<h2>Like Look Solutions</h2>
-		<p>
-			A Like Look Solutions é referência em soluções tecnológicas corporativas, oferecendo:
+		<p class="company-intro">
+			A <strong>Like Look Solutions</strong> é referência em soluções tecnológicas corporativas, oferecendo:
 		</p>
-		<ul>
-			<li><strong>Service Desk Avançado:</strong> Suporte técnico 24/7 com SLAs garantidos</li>
-			<li><strong>Field Support Especializado:</strong> Equipe técnica in loco para atendimento imediato</li>
-			<li><strong>Consultoria Estratégica:</strong> Análise e planejamento de infraestrutura de TI</li>
-			<li><strong>Projetos Customizados:</strong> Desenvolvimento de soluções sob medida</li>
-			<li><strong>Gestão de Infraestrutura:</strong> Monitoramento e manutenção proativa</li>
-		</ul>
+		<div class="services-list">
+			<div class="service-item">
+				<strong>🔧 Service Desk Avançado</strong>
+				<p>Suporte técnico 24/7 com SLAs garantidos</p>
+			</div>
+			<div class="service-item">
+				<strong>👨‍💻 Field Support Especializado</strong>
+				<p>Equipe técnica in loco para atendimento imediato</p>
+			</div>
+			<div class="service-item">
+				<strong>📈 Consultoria Estratégica</strong>
+				<p>Análise e planejamento de infraestrutura de TI</p>
+			</div>
+			<div class="service-item">
+				<strong>⚡ Projetos Customizados</strong>
+				<p>Desenvolvimento de soluções sob medida</p>
+			</div>
+			<div class="service-item">
+				<strong>🔍 Gestão de Infraestrutura</strong>
+				<p>Monitoramento e manutenção proativa</p>
+			</div>
+		</div>
 
 		<h2>Inovação e Tecnologia</h2>
-		<p>
-			Mantemos um compromisso constante com a inovação, implementando as mais recentes tecnologias
-			e melhores práticas do mercado. Nossa abordagem combina expertise técnica com compreensão
-			profunda das necessidades empresariais.
+		<p class="innovation-text">
+			Mantemos um <strong>compromisso constante com a inovação</strong>, implementando as <strong>mais recentes tecnologias</strong> e <strong>melhores práticas</strong> do mercado. Nossa abordagem combina <strong>expertise técnica</strong> com compreensão profunda das necessidades empresariais.
 		</p>
 
 		<h2>Compromisso Social</h2>
-		<p>
-			Através do programa "Vagas & TI Like Look Solutions", contribuímos ativamente para o
-			desenvolvimento profissional do setor, conectando talentos a oportunidades e promovendo
-			a capacitação técnica.
+		<p class="social-text">
+			Através do programa <strong>"Vagas & TI Like Look Solutions"</strong>, contribuímos ativamente para o desenvolvimento profissional do setor, <strong>conectando talentos</strong> a oportunidades e promovendo a <strong>capacitação técnica</strong>.
 		</p>
 
 		<div class="cta-section">
 			<p>
-				<strong>Pronto para transformar sua infraestrutura de TI?</strong><br>
-				Entre em contato para uma consultoria personalizada.
+				<strong class="cta-title">Pronto para transformar sua infraestrutura de TI?</strong><br>
+				<span class="cta-subtitle">Entre em contato para uma consultoria personalizada.</span>
 			</p>
 		</div>
 	</div>
@@ -62,35 +81,85 @@ import Layout from '../layouts/BlogPost.astro';
 <style>
 	.lead {
 		font-size: 1.2em;
-		line-height: 1.6;
+		line-height: 1.8;
 		color: #2d3748;
-		margin-bottom: 2em;
+		margin-bottom: 2.5em;
+		padding: 1em;
+		background: #f8fafc;
+		border-radius: 8px;
 	}
 
 	.prose {
 		max-width: 65ch;
 		margin: 0 auto;
+		padding: 0 1em;
 	}
 
 	.prose h2 {
 		color: #2d3748;
-		margin-top: 2em;
-		margin-bottom: 1em;
+		margin-top: 2.5em;
+		margin-bottom: 1.2em;
+		padding-bottom: 0.5em;
+		border-bottom: 2px solid #e2e8f0;
 	}
 
-	.prose ul {
-		margin-bottom: 1.5em;
+	.expertise-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 1em;
+		margin-bottom: 2em;
 	}
 
-	.prose li {
-		margin-bottom: 0.5em;
+	.expertise-item {
+		padding: 1em;
+		background: #f8fafc;
+		border-radius: 8px;
+		text-align: center;
+	}
+
+	.services-list {
+		display: grid;
+		gap: 1.5em;
+		margin: 2em 0;
+	}
+
+	.service-item {
+		padding: 1.2em;
+		background: #f8fafc;
+		border-radius: 8px;
+		border-left: 4px solid #3b82f6;
+	}
+
+	.service-item p {
+		margin-top: 0.5em;
+		color: #4b5563;
+	}
+
+	.innovation-text, .social-text {
+		line-height: 1.8;
+		padding: 1em;
+		background: #f8fafc;
+		border-radius: 8px;
+		margin: 1.5em 0;
 	}
 
 	.cta-section {
 		margin-top: 3em;
 		padding: 2em;
-		background: #f7fafc;
+		background: linear-gradient(135deg, #3b82f6, #2563eb);
 		border-radius: 8px;
 		text-align: center;
+		color: white;
+	}
+
+	.cta-title {
+		font-size: 1.25em;
+		display: block;
+		margin-bottom: 0.5em;
+	}
+
+	.cta-subtitle {
+		font-size: 1.1em;
+		opacity: 0.9;
 	}
 </style>
