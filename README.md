@@ -1,68 +1,33 @@
-# Astro Starter Kit: Blog
+# Portfólio Interativo com IA de Persona
 
-```sh
-npm create astro@latest -- --template blog
-```
+Este repositório contém o código-fonte de um site portfólio interativo, projetado para apresentar serviços, produtos e informações de forma personalizada e empática. Integrando inteligência artificial, a plataforma é capaz de atender clientes de maneira calorosa, eficiente e humanizada, representando a persona **Julio Campos Machado**, locutor da Rádio Tatuapé FM e fundador da Like Look Solutions.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+## Funcionalidades
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- **IA de Atendimento:** Respostas personalizadas que refletem o tom e a empatia de Julio Campos Machado.  
+- **Promoção de Serviços:** Divulgação clara e objetiva de serviços da Like Look Solutions e da Adega Rádio Tatuapé FM 24 horas.  
+- **Agradecimento Automático:** Mensagens de gratidão para vagas publicadas e interações com usuários.  
+- **Integração com Links Úteis:** Acesso rápido a produtos, serviços e redes sociais.  
+- **Design Moderno:** Interface intuitiva e responsiva para uma experiência agradável em diferentes dispositivos.  
 
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
+## Principais Áreas de Atuação
 
-Features:
+- **Like Look Solutions:** Conexão de talentos de TI com grandes oportunidades.  
+- **Rádio Tatuapé FM:** Promoção de entretenimento e conteúdo cultural com mais de 15 anos de tradição.  
+- **Adega 24 horas no iFood:** Entregas rápidas de bebidas diretamente para o cliente.  
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## Tecnologias Utilizadas
 
-## 🚀 Project Structure
+- **Frontend:** HTML5, CSS3 e JavaScript.  
+- **Backend:** Integração com IA usando Python e GPT-3.5-turbo.  
+- **Hospedagem:** Configurado para fácil deploy em plataformas web.  
 
-Inside of your Astro project, you'll see the following folders and files:
+## Como Contribuir
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+Estamos abertos a colaborações! Envie sugestões, melhorias ou relatórios de bugs por meio de issues ou pull requests.  
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Links Relacionados
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- [Site Oficial da Rádio Tatuapé FM](https://www.radiotatuapefm.com.br)  
+- [Portfólio Like Look Solutions](https://likelook.wixsite.com/solutions)  
+- [Canal de Vagas no WhatsApp](https://whatsapp.com/channel/0029VarzJ63HQbRwTNqBUw3b)  
